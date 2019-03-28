@@ -1,0 +1,25 @@
+{
+  "name": "TodoAppBackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "monitor": "nodemon ./bin/www",
+    "debug": "node %NODE_DEBUG_OPTION% ./bin/www",
+    "debuglinux": "node $NODE_DEBUG_OPTION ./bin/www"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.2",
+    "morgan": "^1.9.1",
+    "debug": "~2.6.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
